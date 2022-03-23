@@ -1,0 +1,151 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,p,a,label{
+  font-family: Arial,'Nunito';
+}
+h3{
+  color: #eee;
+  font-weight: 200;
+}
+.login-page{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.logo img{
+  margin-bottom: 40px;
+}
+.login-info{
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  /*background: linear-gradient(to bottom, #eb3349,  #f45c43);*/
+  background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+}
+.login-info h1{
+  text-align: center;
+  margin-bottom: 25px;
+  color: black;
+}
+.login-info h3{
+  text-align: center;
+  font-size: 18px;
+}
+.login-info-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:25px;
+}
+.login-form h1{
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+.social-media{
+  padding-bottom: 25px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.social-media img{
+  padding: 8px;
+  cursor: pointer;
+}
+.btn{
+  margin-top:1cm;
+  padding : 5px;
+  border:1px solid #eee;
+  color: #141414;
+  cursor: pointer;
+  text-align: center;
+  width : 250px;
+  transform: translate(10px 10px);
+  border-radius: 20px;
+}
+.btn a{
+  color: #eee;
+}
+.btn:active,
+.btn:hover{
+  color: #141414;
+  background-color: #f0f0f0;
+  border: 1px solid #eee;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form a{
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 8px;
+}
+form a:hover{
+  color: black;
+}
+.input-field{
+  padding: 0;
+  margin-bottom: 25px;
+  background-color: #f0f0f0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+input{
+  padding: 8px;
+  margin: 8px;
+  background: none;
+  border: none;
+  outline: none;
+  width: 300px;
+  line-height: 1;
+  font-size: 1.1rem;
+}
+.input-field i{
+  text-align: center;
+  line-height: 55px;
+  margin-top: 5px;
+}
+input[type="submit"]{
+  border: 1px solid #ff5f6d;
+  background-color: #ff5f6d;
+  width: 200px;
+  padding: 8px;
+  color: #eee;
+  border-radius: 25px;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:active{
+    background-color: #fe4f86;
+}
+
+#close_page{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+#logo{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.error-message{
+  padding: 20px;
+  color: #ff5f6d;
+}

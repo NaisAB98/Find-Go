@@ -1,0 +1,147 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+h3{
+  color: #eee;
+  font-weight: 200;
+  text-align: center;
+}
+h1,h2,p,a,label{
+  font-family: Arial,'Nunito';
+}
+.signup-page{
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.logo img{
+  margin-bottom: 40px;
+}
+.signup-info{
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  /*background: linear-gradient(to bottom, #eb3349,  #f45c43);*/
+  background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+}
+.signup-info h1{
+  text-align: center;
+  margin-bottom: 25px;
+  color: black;
+}
+.social-media{
+  padding-bottom: 10px;
+}
+.social-media img{
+  padding: 8px;
+  cursor: pointer;
+}
+.btn{
+  margin-top:1cm;
+  padding : 5px;
+  border:1px solid #eee;
+  color: #141414;
+  cursor: pointer;
+  text-align: center;
+  width : 250px;
+  transform: translate(10px 10px);
+  border-radius: 20px;
+}
+.btn a{
+  color: #eee;
+}
+.btn:active,
+.btn:hover{
+  color: #141414;
+  background-color: #f0f0f0;
+  border: 1px solid #eee;
+}
+.signup-info-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signup-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:25px;
+}
+.signup-form h1{
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+input[type="submit"]{
+  border: 1px solid #ff5f6d;
+  background-color: #ff5f6d;
+  width: 200px;
+  padding: 8px;
+  color: #eee;
+  border-radius: 25px;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:active{
+    background-color: #fe4f86;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+form a{
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 8px;
+}
+form a:hover{
+  color: black;
+}
+.input-field{
+  padding: 0;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-color: #f0f0f0;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.input-field i{
+  text-align: center;
+  line-height: 55px;
+  margin-top: 5px;
+}
+input{
+  padding: 8px;
+  margin: 8px;
+  background: none;
+  border: none;
+  outline: none;
+  width: 300px;
+  line-height: 1;
+  font-size: 1.1rem;
+}
+.input-content-field{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#close_page{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  cursor: pointer;
+}
+#logo{
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}

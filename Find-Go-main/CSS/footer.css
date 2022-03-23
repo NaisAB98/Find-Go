@@ -1,0 +1,36 @@
+footer{
+  height: 60vh;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+.aide,.liens,.wilaya{
+  display: flex;
+  flex-direction: column;
+}
+.aide a,.liens a,.wilaya a{
+  color: #666;
+  padding: 4px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media h2{
+padding: 10px 0;
+}
+.social-media a{
+  padding: 10px;
+}
+.social-media i:hover{
+  font-size: 28px;
+  color: #666;
+  transition: 0.3s;
+}
+footer h2{
+  color: #ff5f6d;
+}
+/*===========================================*/

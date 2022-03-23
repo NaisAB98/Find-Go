@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+h2,p{
+  padding: 0 20px;
+}
+h2{
+  color: #ff5f6d;
+}
+p{
+  color: #666;
+}
+.param{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  padding: 10px 20px;
+  box-shadow: 0 0 8px #ff5f6d;
+  border-radius: 20px;
+}
+
+.btn{
+  background-color: #ff5f6d;
+  color: #141414;
+  float: right;
+  width: 200px;
+  padding: 18px;
+}
+.btn:hover{
+  background-color: #141414;
+  color: #ff5f6d;
+  border: 1px solid #ff5f6d;
+  border-radius: 20px;
+}
+.profile-header{
+  background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.profile-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.box-container-2{
+  background-color: #141414;
+  border-radius: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.change a{
+  color: #ff5f6d;
+}

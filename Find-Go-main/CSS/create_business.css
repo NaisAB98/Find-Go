@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1,h2,p,a,label{
+  font-family: Arial,'Nunito';
+}
+body{
+  padding: 5px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background: linear-gradient(to bottom right, #ff5f6d, #ffc371);
+}
+
+h2{
+  text-transform: uppercase;
+  font-size: 24px;
+  text-align: center;
+  color: #212121;
+}
+h2:hover{
+  font-size: 26px;
+  transition: 0.3s;
+}
+h3{
+  color: #ff5f6d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+h3:hover{
+  font-weight: 400;
+}
+.box-container{
+  padding: 80px;
+  background-color: #141414;
+  box-shadow: 0 5px 24px rgba(0, 0, 0, 0.7);
+}
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input,textarea{
+  display: flex;
+  justify-content: flex-start;
+  border: 0;
+  background: none;
+  display: block;
+  padding: 14px 10px;
+  border-bottom: 1px solid #ff5f6d;
+  width: 300px;
+  margin: 15px;
+  color: #ff5f6d;
+  font-size: 14px;
+  outline:none;
+}
+input[type="submit"]{
+  color: #ff5f6d;
+  border: 1px solid #ff5f6d;
+}
+input[type="submit"]:hover,
+input[type="submit"]:active{
+  background-color: #ff5f6d;
+  color: #141414;
+  transition: 0.3s;
+}
+.info{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+}
+img{
+  padding: 40px;
+}
+logo{
+  padding: 40px;
+  margin-bottom: 50px;
+}
